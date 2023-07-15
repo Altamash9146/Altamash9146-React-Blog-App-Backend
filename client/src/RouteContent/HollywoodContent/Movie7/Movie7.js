@@ -13,7 +13,7 @@ const  Movie7Content = ()=>{
   
     const Fetchdata = async ()=>{
         try{
-            const response = await axios.get(`http://localhost:9002/api/blog/Hollywood-Images`)
+            const response = await axios.get(`https://react-blog-app-backend-gwf1.onrender.com/api/blog/Hollywood-Images`)
             setData(response.data)
         }
   

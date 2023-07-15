@@ -10,7 +10,7 @@ const FitnessTopPost = () => {
   
     const Fetchdata = async ()=>{
         try{
-            const response = await axios.get(`http://localhost:9002/api/blog/Fitness-Images`)
+            const response = await axios.get(`https://react-blog-app-backend-gwf1.onrender.com/api/blog/Fitness-Images`)
             setData(response.data)
         }
   

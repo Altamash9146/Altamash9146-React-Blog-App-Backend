@@ -11,7 +11,7 @@ const TechnologyTopPost = () => {
   
     const Fetchdata = async ()=>{
         try{
-            const response = await axios.get(`http://localhost:9002/api/blog/Technology-Images`)
+            const response = await axios.get(`https://react-blog-app-backend-gwf1.onrender.com/api/blog/Technology-Images`)
             setData(response.data)
         }
   

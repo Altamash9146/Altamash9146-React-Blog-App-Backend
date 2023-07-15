@@ -15,7 +15,7 @@ const Signup = () => {
 
     const handleOnSubmit  = (event)=>{
             event.preventDefault()           
-            axios.post('http://localhost:9002/register',formdata)
+            axios.post('https://react-blog-app-backend-gwf1.onrender.com/register',formdata)
             
             .then((response) => {
                 if(response.data.token){

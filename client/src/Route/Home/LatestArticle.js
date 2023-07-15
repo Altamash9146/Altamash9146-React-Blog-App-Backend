@@ -12,7 +12,7 @@ const LatestArticle = ()=>{
   
     const Fetchdata = async ()=>{
         try{
-            const response = await axios.get(`http://localhost:9002/api/blog/Bollywood-Images`)
+            const response = await axios.get(`https://react-blog-app-backend-gwf1.onrender.com/api/blog/Bollywood-Images`)
             setData(response.data)
         }
   
@@ -27,7 +27,7 @@ const LatestArticle = ()=>{
     
       const FetchFitnessdata = async ()=>{
           try{
-              const response = await axios.get(`http://localhost:9002/api/blog/Fitness-Images`)
+              const response = await axios.get(`https://react-blog-app-backend-gwf1.onrender.com/api/blog/Fitness-Images`)
               setfitnessData(response.data)
           }
     
