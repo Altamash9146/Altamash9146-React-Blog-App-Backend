@@ -69,7 +69,7 @@ return(
         <Route path="/BollywoodContent/War" element = {  <War/>}/>  
     </>
     ):(
-      <Route path="/BollywoodContent/*" element={< Navigate to="/Signup" replace/>} />
+      <Route path="/BollywoodContent" element={< Navigate to="/Signup" replace/>} />
     )}
   
   {isUserSignedUp ? (
@@ -88,7 +88,7 @@ return(
         <Route path= "/TechnologyContent/Tech11" element={<Tech11/>}/> 
         </>
     ):(
-      <Route path="/TechnologyContent/*" element={< Navigate to="/Signup" replace/>} />
+      <Route path="/TechnologyContent" element={< Navigate to="/Signup" replace/>} />
     )}
 
 
@@ -108,7 +108,7 @@ return(
         <Route path= "/HollywoodContent/Movie11" element={<Movie11/>}/> 
         </>
     ):(
-      <Route path="/HollywoodContent/*" element={< Navigate to="/Signup" replace/>} />
+      <Route path="/HollywoodContent" element={< Navigate to="/Signup" replace/>} />
     )}
 
 
@@ -128,7 +128,7 @@ return(
         <Route path= "/FoodContent/Food11" element={<Food11/>}/> 
         </>
     ):(
-      <Route path="/FoodContent/*" element={< Navigate to="/Signup" replace/>} />
+      <Route path="/FoodContent" element={< Navigate to="/Signup" replace/>} />
     )}
 
 {/* Fitness Content */}
@@ -147,7 +147,7 @@ return(
         <Route path= "/FitnessContent/Fitness11" element={<Fitness11/>}/> 
         </>
     ):(
-      <Route path="/FitnessContent/*" element={< Navigate to="/Signup" replace/>} />
+      <Route path="/FitnessContent" element={< Navigate to="/Signup" replace/>} />
     )}
  
 
