@@ -32,6 +32,7 @@ const Logo = () => {
   const handleLogout = () => {
     localStorage.clear();
     window.location.reload();
+    navi('/')
   };
 
   const togglePopup = () => {
